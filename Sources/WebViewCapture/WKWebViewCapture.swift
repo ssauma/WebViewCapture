@@ -8,7 +8,8 @@
 import Foundation
 import WebKit
 
-extension WKWebView {
+@available(iOS 11.0, *)
+public extension WKWebView {
     func image(_ elementId: String, completion: @escaping (UIImage?) -> Void) {
         guard !elementId.isEmpty else {
             completion(nil)
@@ -57,7 +58,7 @@ extension WKWebView {
 }
  
 @available(iOS 15.0.0, *)
-extension WKWebView {
+public extension WKWebView {
     func image(_ elementId: String) async -> UIImage? {
         guard !elementId.isEmpty else {
             return nil
