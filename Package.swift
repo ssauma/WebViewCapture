@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "WebViewCapture", targets: ["WebViewCapture"])
     ],
     targets: [
-        .target(name: "WebViewCapture", path: "Sources/WebViewCapture")
+        .target(name: "WebViewCapture", path: "WebViewCapture/Classes")
     ],
     swiftLanguageVersions: [
         .v5
