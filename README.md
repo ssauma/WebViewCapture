@@ -6,6 +6,8 @@ WKWebView extension to take a snapshot image with specific element.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![example screenshot](./screenshot.png)
+
 ## Requirements
 
 ## Swift Package Manager
