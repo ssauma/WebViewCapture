@@ -6,6 +6,8 @@ WKWebView extension to take a snapshot image with specific element.
 
 ## Requirements
 
+iOS 11
+
 ## Swift Package Manager
 
 The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development, but Alamofire does support its use on supported platforms.
