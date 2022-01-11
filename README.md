@@ -2,6 +2,12 @@
 
 WKWebView extension to take a snapshot image with specific element.
 
+```swift
+webView.image("hplogo") { [weak self] image in
+    self?.imageView.image = image
+}
+```
+
 ![example screenshot](./screenshot.png)
 
 ## Requirements
