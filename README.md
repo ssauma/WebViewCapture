@@ -1,11 +1,10 @@
-# WebViewCapture
+# WebViewCustomFont
 
-WKWebView extension to take a snapshot image with specific element.
+WKWebView extension to addScript for inject a custom font-face
 
 ```swift
-webView.image("hplogo") { [weak self] image in
-    self?.imageView.image = image
-}
+webView.injectScript(fontFileName: "Pecita", type: .otf, fontFamilyName: "pecita")
+webView.injectScript(fontFileName: "zagreb_underground", type: .ttf, fontFamilyName: "zagreb")
 ```
 
 ![example screenshot](./screenshot.png)
@@ -22,17 +21,17 @@ Once you have your Swift package set up, adding Alamofire as a dependency is as 
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/ssauma/WebViewCapture.git", .upToNextMajor(from: "0.1.0"))
+    .package(url: "https://github.com/ssauma/WebViewCustomFont.git", .upToNextMajor(from: "0.1.0"))
 ]
 ```
 
 ## CocoaPods
 
-WebViewCapture is available through [CocoaPods](https://cocoapods.org). To install
+WebViewCustomFont is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'WebViewCapture'
+pod 'WebViewCustomFont'
 ```
 
 ## Author
@@ -41,4 +40,4 @@ Juyeon Lee, juyeonlee@timerit.com
 
 ## License
 
-WebViewCapture is available under the MIT license. See the LICENSE file for more info.
+WebViewCustomFont is available under the MIT license. See the LICENSE file for more info.
