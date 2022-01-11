@@ -31,6 +31,7 @@ WKWebView extension to take a snapshot image with specific element.
   s.ios.deployment_target = '11.0'
 
   s.source_files = "WebViewCapture/Classes/**/*"
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'WebViewCapture' => ['WebViewCapture/Assets/*.png']
   # }
